@@ -2,7 +2,7 @@ import bpy
 from math import radians
 import random
 
-def copyObj(new_name, location=None, new_rotation=None, dist=0):
+def copyObj(new_name, location=None, new_rotation=None, dist=10):
 
     # copy selected object data and create new object with that data
     obj_data = bpy.context.object.data
